@@ -13,3 +13,5 @@
    `pip install -r requirements.txt`
 6. ### Run the Program
    `streamlit run app.py`
+
+Link of the result and the model: https://drive.google.com/drive/folders/1v__laIdXhxC0U5Fs3VYpJ_knb1UrEaR0?usp=sharing
