@@ -128,14 +128,6 @@ def main(model_truck, model_ambulance):
         display_image_detection(model, image_source, conf, detect)
 
     else:
-        # video_option = st.radio("Choose Video Source", ("Upload Video", "Default Video"))
-
-        # if video_option == "Default Video":
-        #     video_source = st.selectbox("Choose Source", ("Default Video 1", "Default Video 2"))
-        #     if video_source == "Default Video 1":
-        #         video_source = "test.mov"
-        #     else:
-        #         video_source = "test2.mp4"
         uploaded_video = st.file_uploader("Upload Video", type=["mp4", "avi", "mov"])
         if uploaded_video is not None:
             video_source = f"temp.{uploaded_video.name.split('.')[-1]}"
